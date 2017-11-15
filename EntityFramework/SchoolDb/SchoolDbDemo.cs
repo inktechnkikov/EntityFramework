@@ -12,9 +12,9 @@ namespace SchoolDb
         static void Main(string[] args)
         {
             SchoolDbContext schoolDb = new SchoolDbContext();
-            
-           
-            schoolDb.Students.Add(AddStudentToDb());
+
+           // schoolDb.Students.Add(AddStudentToDb());
+            GetAllStudents(schoolDb);
             schoolDb.SaveChanges();
             
         }
@@ -22,13 +22,16 @@ namespace SchoolDb
         {
             return new Student()
             {
-                Name = "Stamat",
-                Age = 26,
+                Name = "Unufri",
+                Age = 27,
             };
         }
-        //public static Teacher AddTeacherToDb()
-        //{
-           
-        //}
+        public static void GetAllStudents(SchoolDbContext studentContext)
+        {
+            foreach (var student in studentContext.Students)
+            {
+                Console.WriteLine($"Student Name --> {student.Name} \nAge --> {student.Age}");
+            }
+        }
     }
 }
