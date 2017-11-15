@@ -26,5 +26,9 @@ namespace SchoolDb
                 Age = 26,
             };
         }
+        //public static Teacher AddTeacherToDb()
+        //{
+           
+        //}
     }
 }

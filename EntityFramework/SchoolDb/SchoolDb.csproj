@@ -67,6 +67,10 @@
     <Compile Include="Migrations\201711151641153_StudentSetAgeRange.Designer.cs">
       <DependentUpon>201711151641153_StudentSetAgeRange.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711151705478_AddPrimaryKeyStudents.cs" />
+    <Compile Include="Migrations\201711151705478_AddPrimaryKeyStudents.Designer.cs">
+      <DependentUpon>201711151705478_AddPrimaryKeyStudents.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\Teacher.cs" />
@@ -90,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711151641153_StudentSetAgeRange.resx">
       <DependentUpon>201711151641153_StudentSetAgeRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711151705478_AddPrimaryKeyStudents.resx">
+      <DependentUpon>201711151705478_AddPrimaryKeyStudents.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
