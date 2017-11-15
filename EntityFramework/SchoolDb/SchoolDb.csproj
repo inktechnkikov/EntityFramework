@@ -63,6 +63,10 @@
     <Compile Include="Migrations\201711151622185_StudentNameSetRequired.Designer.cs">
       <DependentUpon>201711151622185_StudentNameSetRequired.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711151641153_StudentSetAgeRange.cs" />
+    <Compile Include="Migrations\201711151641153_StudentSetAgeRange.Designer.cs">
+      <DependentUpon>201711151641153_StudentSetAgeRange.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\Teacher.cs" />
@@ -83,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711151622185_StudentNameSetRequired.resx">
       <DependentUpon>201711151622185_StudentNameSetRequired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711151641153_StudentSetAgeRange.resx">
+      <DependentUpon>201711151641153_StudentSetAgeRange.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

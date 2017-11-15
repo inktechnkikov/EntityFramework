@@ -12,13 +12,19 @@ namespace SchoolDb
         static void Main(string[] args)
         {
             SchoolDbContext schoolDb = new SchoolDbContext();
-            Student student = new Student()
+            
+           
+            schoolDb.Students.Add(AddStudentToDb());
+            schoolDb.SaveChanges();
+            
+        }
+        public static Student AddStudentToDb()
+        {
+            return new Student()
             {
-                Name = "Gosho",
-                Age = 24,
-
+                Name = "Stamat",
+                Age = 26,
             };
-            schoolDb.Students.Add(student);
         }
     }
 }

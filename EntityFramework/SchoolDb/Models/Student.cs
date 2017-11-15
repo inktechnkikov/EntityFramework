@@ -12,6 +12,7 @@ namespace SchoolDb.Models
         public int ID { get; set; }
         [Required]
         public string Name { get; set; }
+        [Range(0,120)]
         public int Age { get; set; }
         public Teacher Teacher { get; set; }
     }
