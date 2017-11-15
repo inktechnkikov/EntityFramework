@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniORM", "MiniORM\MiniORM.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDB", "VehicleDB\VehicleDB.csproj", "{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolDb", "SchoolDb\SchoolDb.csproj", "{6E48C298-86E4-46AA-9536-968A4E8F5B69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E48C298-86E4-46AA-9536-968A4E8F5B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E48C298-86E4-46AA-9536-968A4E8F5B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E48C298-86E4-46AA-9536-968A4E8F5B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E48C298-86E4-46AA-9536-968A4E8F5B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
