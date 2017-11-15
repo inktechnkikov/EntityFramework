@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniORM", "MiniORM\MiniORM.csproj", "{1C81F414-CBCD-4CF6-BDC3-CF8BF18DAB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDB", "VehicleDB\VehicleDB.csproj", "{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C81F414-CBCD-4CF6-BDC3-CF8BF18DAB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C81F414-CBCD-4CF6-BDC3-CF8BF18DAB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C81F414-CBCD-4CF6-BDC3-CF8BF18DAB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C81F414-CBCD-4CF6-BDC3-CF8BF18DAB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9B895F-D847-4D8A-AF7F-5CDB9A0A89A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32526A08-6363-4859-A1D0-BBAA2DBFABF9}
+	EndGlobalSection
+EndGlobal
