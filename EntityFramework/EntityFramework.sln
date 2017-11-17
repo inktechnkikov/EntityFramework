@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDB", "VehicleDB\Vehi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolDb", "SchoolDb\SchoolDb.csproj", "{6E48C298-86E4-46AA-9536-968A4E8F5B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkRelations", "EntityFrameworkRelations\EntityFrameworkRelations.csproj", "{46A565C1-D526-486A-ACE0-5345FE00E826}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkRelationsOneToOne", "EntityFrameworkRelations\EntityFrameworkRelationsOneToOne.csproj", "{46A565C1-D526-486A-ACE0-5345FE00E826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnityFrameworkOneToMany", "ConsoleApp1\EnityFrameworkOneToMany.csproj", "{FAC7D567-DE40-488E-BD9D-59339A156387}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{46A565C1-D526-486A-ACE0-5345FE00E826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46A565C1-D526-486A-ACE0-5345FE00E826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46A565C1-D526-486A-ACE0-5345FE00E826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC7D567-DE40-488E-BD9D-59339A156387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC7D567-DE40-488E-BD9D-59339A156387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC7D567-DE40-488E-BD9D-59339A156387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC7D567-DE40-488E-BD9D-59339A156387}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

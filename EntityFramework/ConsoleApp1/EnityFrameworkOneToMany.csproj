@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46A565C1-D526-486A-ACE0-5345FE00E826}</ProjectGuid>
+    <ProjectGuid>{FAC7D567-DE40-488E-BD9D-59339A156387}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EntityFrameworkRelations</RootNamespace>
-    <AssemblyName>EntityFrameworkRelations</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,25 +51,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201711161250200_InitialCreate.cs" />
-    <Compile Include="Migrations\201711161250200_InitialCreate.Designer.cs">
-      <DependentUpon>201711161250200_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Demo.cs" />
+    <Compile Include="Models\School.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\StudentAddress.cs" />
-    <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WorldContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201711161250200_InitialCreate.resx">
-      <DependentUpon>201711161250200_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
