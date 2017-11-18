@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkRelationsOne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnityFrameworkOneToMany", "ConsoleApp1\EnityFrameworkOneToMany.csproj", "{FAC7D567-DE40-488E-BD9D-59339A156387}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSimulator", "CarSimulator\CarSimulator.csproj", "{7F501C0C-9D10-4A1F-B430-FC53F909ECD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FAC7D567-DE40-488E-BD9D-59339A156387}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC7D567-DE40-488E-BD9D-59339A156387}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC7D567-DE40-488E-BD9D-59339A156387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F501C0C-9D10-4A1F-B430-FC53F909ECD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F501C0C-9D10-4A1F-B430-FC53F909ECD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F501C0C-9D10-4A1F-B430-FC53F909ECD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F501C0C-9D10-4A1F-B430-FC53F909ECD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
