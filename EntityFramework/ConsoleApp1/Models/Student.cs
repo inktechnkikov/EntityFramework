@@ -9,13 +9,13 @@ namespace ConsoleApp1.Models
 {
    public class Student
     {
-        [ForeignKey("StudentAddress")]
+       [ForeignKey("StudentAddress")]
         public int Id { get; set; }
 
         public string Name { get; set; }
 
         public virtual StudentAddress StudentAddress { get; set; }
-
+       
         public virtual School School { get; set; }
     }
 }

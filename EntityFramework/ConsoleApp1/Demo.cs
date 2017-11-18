@@ -23,23 +23,24 @@ namespace EntityFrameworkOneToMany
             IEnumerable<Student> student = context.Students;
             context.School.Add(new School()
             {
-                Name = "PG KAspichan",
+                Name = "UNSS",
             });
             foreach (Student student1 in student)
             {
                 context.School.First().Students.Add(student1);
 
             }
+           
         }
 
         public static Student AddNewStudentToDB()
         {
             return new Student()
             {
-                Name = "Manteko",
+                Name = "Stamat",
                 StudentAddress = new StudentAddress()
                 {
-                    Address = "koprivshtica",
+                    Address = "Dimitrovgrad",
                 }
             };
         }

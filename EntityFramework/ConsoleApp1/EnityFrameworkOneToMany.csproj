@@ -52,6 +52,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Demo.cs" />
+    <Compile Include="Migrations\201711180143445_StudentAddressForeignKey.cs" />
+    <Compile Include="Migrations\201711180143445_StudentAddressForeignKey.Designer.cs">
+      <DependentUpon>201711180143445_StudentAddressForeignKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\School.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\StudentAddress.cs" />
@@ -61,6 +66,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201711180143445_StudentAddressForeignKey.resx">
+      <DependentUpon>201711180143445_StudentAddressForeignKey.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
