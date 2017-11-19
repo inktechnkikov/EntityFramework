@@ -10,13 +10,8 @@ namespace StateOfObjects
     {
         static void Main(string[] args)
         {
-            WorldContext context = new WorldContext();
-            //Town town = new Town()
-            //{
-            //    Name = "Sofia"
-            //};
-            //Console.WriteLine(context.Entry(town).State);
-          
+            AdvancedQueryingContext context = new AdvancedQueryingContext();
+            
         }
     }
 }

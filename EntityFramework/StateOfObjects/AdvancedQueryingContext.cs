@@ -5,10 +5,10 @@ namespace StateOfObjects
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class WorldContext : DbContext
+    public partial class AdvancedQueryingContext : DbContext
     {
-        public WorldContext()
-            : base("name=WorldContext")
+        public AdvancedQueryingContext()
+            : base("name=AdvancedQueryingContext")
         {
         }
 
