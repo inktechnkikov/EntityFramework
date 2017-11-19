@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FAC7D567-DE40-488E-BD9D-59339A156387}</ProjectGuid>
+    <ProjectGuid>{6C14A007-B025-4A1D-8647-83483C420A58}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>AdvancedQuerying</RootNamespace>
+    <AssemblyName>AdvancedQuerying</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,25 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Demo.cs" />
-    <Compile Include="Migrations\201711180143445_StudentAddressForeignKey.cs" />
-    <Compile Include="Migrations\201711180143445_StudentAddressForeignKey.Designer.cs">
-      <DependentUpon>201711180143445_StudentAddressForeignKey.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\School.cs" />
-    <Compile Include="Models\Student.cs" />
-    <Compile Include="Models\StudentAddress.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Town.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WorldContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201711180143445_StudentAddressForeignKey.resx">
-      <DependentUpon>201711180143445_StudentAddressForeignKey.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

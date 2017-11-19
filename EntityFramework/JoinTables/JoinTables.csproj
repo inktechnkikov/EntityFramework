@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FAC7D567-DE40-488E-BD9D-59339A156387}</ProjectGuid>
+    <ProjectGuid>{D83AD661-37A7-449B-A686-6EC8718CD5CE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>JoinTables</RootNamespace>
+    <AssemblyName>JoinTables</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,26 +51,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdvanceQueryingContext.cs" />
+    <Compile Include="C__MigrationHistory.cs" />
     <Compile Include="Demo.cs" />
-    <Compile Include="Migrations\201711180143445_StudentAddressForeignKey.cs" />
-    <Compile Include="Migrations\201711180143445_StudentAddressForeignKey.Designer.cs">
-      <DependentUpon>201711180143445_StudentAddressForeignKey.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\School.cs" />
-    <Compile Include="Models\Student.cs" />
-    <Compile Include="Models\StudentAddress.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WorldContext.cs" />
+    <Compile Include="Town.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201711180143445_StudentAddressForeignKey.resx">
-      <DependentUpon>201711180143445_StudentAddressForeignKey.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
